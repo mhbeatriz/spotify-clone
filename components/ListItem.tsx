@@ -8,12 +8,14 @@ interface LisItemProps {
     image: string;
     name: string;
     href: string;
+    size: string;
 }
 
 const ListItem: React.FC<LisItemProps> = ({
     image,
     name,
-    href
+    href,
+    size
 }) => {
     const router = useRouter();
 

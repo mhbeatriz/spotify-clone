@@ -20,6 +20,7 @@ export default function Home() {
               image="/images/liked.png"  
               name="Liked songs"
               href="liked"
+              size="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
             />
           </div>
         </div>
